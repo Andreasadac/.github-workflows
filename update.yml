@@ -3,7 +3,7 @@ name: KBA Daten aktualisieren
 on:
   schedule:
     - cron: '0 8 7 * *'  # Jeden 7. des Monats um 08:00 Uhr
-  workflow_dispatch:
+  workflow_dispatch:      # Manuelles Auslösen aktivieren
 
 jobs:
   update-sheet:
